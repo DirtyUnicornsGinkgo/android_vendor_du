@@ -50,6 +50,9 @@ include vendor/du/config/packages.mk
 # Branding
 include vendor/du/config/branding.mk
 
+# Offline charging animation
+include vendor/du/config/charger.mk
+
 # Themes
 include vendor/themes/common.mk
 
