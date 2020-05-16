@@ -55,3 +55,5 @@ include vendor/themes/common.mk
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/common
+
+$(call inherit-product-if-exists, external/motorola/faceunlock/config.mk)
